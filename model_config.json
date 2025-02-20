@@ -1,0 +1,10 @@
+{
+    "yolov10_object_detection": {
+        "env": "environments/yolov10_env_conda",
+        "script": "models/yolov10_object_detection.py"
+    },
+    "yolov10_traffic_sign_detection": {
+        "env": "environments/yolov10_env_conda",
+        "script": "models/yolov10_traffic_sign_detection.py"
+    }
+}
