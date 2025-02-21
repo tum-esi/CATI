@@ -31,7 +31,7 @@ python setup.py
 
 This will create the needed environments and requirements for the two integrated models.
 
-_Hint:_ If you have problems with conda, try running the steup in the "base" conda environment (`conda activate base`).
+_Hint:_ If you have problems with conda, try running the setup in the "base" conda environment (`conda activate base`).
 
 ## Usage & Examples
 General Syntax:
@@ -45,7 +45,7 @@ usage: cati.py [-h] --input INPUT --output OUTPUT --model
 
 List of parameters:
 * `--input`: Filepath to the folder containing the images to analyze.
-* `--output`: Filepyth to the folder that will contain the results (will be created if not existing).
+* `--output`: Filepath to the folder that will contain the results (will be created if not existing).
 * `--model`: Space-separated list of models to execute.
 * (_Optional_) `--conf`: Confidence threshold value between 0.0 and 1.0. Default: 0.5
 * (_Optional_) `--save_images`: If given, save the images that include the detected objects
