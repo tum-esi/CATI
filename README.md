@@ -110,6 +110,24 @@ After calling `model_addition.py`, all files should are moved to the respective 
 
 Please also make sure that the `--inference_path` file, will accept all the parameters that can be used in `cati.py` to ensure correct functionality.
 
+## Citation
+
+If you use our work, please consider citing it:
+
+```plain
+@inproceedings{kmhs:2025,
+  month        = { 09 },
+  doi          = { 10.1109/DSD67783.2025.00078 },
+  title        = { CATI - An Open-Source Framework to Evaluate Attacks on Cameras for Autonomous Vehicles },
+  author       = { Michael Kühr and Maximilian Mittmann and Mohammad Hamad and Sebastian Steinhorst },
+  booktitle    = { 28th Euromicro Conference Series on Digital System Design (DSD) 2025 },
+  location     = { Salerno, Italy },
+  year         = { 2025 },
+}
+```
+
+> Michael Kühr, Maximilian Mittmann, Mohammad Hamad, Sebastian Steinhorst. **"CATI - An Open-Source Framework to Evaluate Attacks on Cameras for Autonomous Vehicles"**. In: _28th Euromicro Conference Series on Digital System Design (DSD) 2025._ Salerno, Italy. DOI: [10.1109/DSD67783.2025.00078](https://dx.doi.org/10.1109/DSD67783.2025.00078)
+
 
 ## Acknowledgements
 
@@ -121,3 +139,5 @@ Datasets:
 
 Models:
 1. YOLOv10 (https://github.com/THU-MIG/yolov10)
+
+Software was originally created by Maximilian Mittmann
