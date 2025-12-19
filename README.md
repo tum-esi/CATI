@@ -140,4 +140,8 @@ Datasets:
 Models:
 1. YOLOv10 (https://github.com/THU-MIG/yolov10)
 
-Software was originally created by Maximilian Mittmann
+### Update December 2025
+
+A prototype of CATI object detection model for edge devices is available in [`hailo_ai_accelerator`](./hailo_ai_accelerator/). Please check the [Readme](./hailo_ai_accelerator/README.md) for further information.
+
+Software was originally created by Maximilian Mittmann. The adaptions for the [Hailo AI accelerator](./hailo_ai_accelerator/) were originally created by Shashank Simha Mysore Ramesh.
